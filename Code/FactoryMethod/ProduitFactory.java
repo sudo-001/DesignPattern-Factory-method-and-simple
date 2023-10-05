@@ -3,6 +3,12 @@ public class ProduitFactory {
     public static final int TYPE_PRODUITA2 = 2;
     public static final int TYPE_PRODUITA3 = 3;
 
+    /**
+     * Retrieves the specified ProduitA based on the given typeProduit.
+     *
+     * @param  typeProduit  the type of ProduitA to retrieve
+     * @return              the retrieved ProduitA object
+     */
     public ProduitA getProduitA(int typeProduit) {
         ProduitA produitA = null;
 
